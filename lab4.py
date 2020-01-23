@@ -33,9 +33,9 @@ elif user == "no":
 else:
     print("invalid opition ")
 '''
-
+'''
+print("welcome to high school!")
 response = int(input("Enter your grade: "))
-randint(0 - 100)
 
 if response <= 59:
     print("F")
@@ -51,6 +51,31 @@ elif response <= 89:
 
 elif response <= 100:
     print("A")
+
+'''
+
+print("Welcome to high school!")
+
+grade = input("Enter your grade: ")
+grade = int(grade)
+
+if grade >= 90 and grade <= 100:
+    print("A")
+
+elif grade >= 80 and grade <=89:
+    print("B")
+
+elif grade >=70 and grade <= 79:
+    print("C")
+
+elif grade >=60 and grade <=69:
+    print("D")
+
+elif grade >= 0 and grade <=59:
+    print("F")
+
+else:
+    print("You cheater!")
 
 
 
