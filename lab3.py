@@ -34,8 +34,10 @@ print(random.choice(eight_ball_answers))
 print("so,")
 input("would you like to try again?")
 
-("yes") 
+if "no":
+    print("goodbye")
 
-input("Ask me a question?")
+else "yes":
+    input("Ask me a question?")
 
 print(random.choice(eight_ball_answers))
