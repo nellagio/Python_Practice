@@ -53,11 +53,14 @@ elif response <= 100:
     print("A")
 
 '''
+import random
+
 
 print("Welcome to high school!")
 
 grade = input("Enter your grade: ")
 grade = int(grade)
+rival = random.randint(0, 100)
 
 if grade >= 90 and grade <= 100:
     print("A")
@@ -77,5 +80,12 @@ elif grade >= 0 and grade <=59:
 else:
     print("You cheater!")
 
+if grade < rival:
+    print(f"your rival got a {rival} they beat you this time, better study!")
 
+elif grade > rival:
+    print(f"Your rival has been defeated, they got a {rival}")
+
+else:
+    print("you were equally matched.")
 
